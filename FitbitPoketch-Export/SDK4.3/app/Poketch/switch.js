@@ -116,13 +116,13 @@ export let SwitchView = function(doc, settings, viewUpdate, debug=false) {
   };
 
   // forward button is released
-  foreBut.addEventListener("mousedown", (evt) => {
+  foreBut.addEventListener("click", (evt) => {
     // activate the buttons
     buttonEvent(downBut, 1);
   });
 
   // forward button is released
-  backBut.addEventListener("mousedown", (evt) => {
+  backBut.addEventListener("click", (evt) => {
     // activate the buttons
     buttonEvent(upBut, -1);
   });
